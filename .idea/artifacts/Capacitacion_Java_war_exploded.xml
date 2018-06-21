@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Capacitacion_Java:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Capacitacion_Java_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Capacitacion_Java/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Capacitacion_Java" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.46" />
+          <element id="library" level="project" name="zxing-core-1.7" />
+          <element id="library" level="project" name="zxing-j2se-1.7" />
+          <element id="library" level="project" name="qrgen-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
